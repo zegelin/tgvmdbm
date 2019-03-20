@@ -1,0 +1,55 @@
+<app-benchmarks [benchmarks]="benchmarks" xmlns="http://www.w3.org/1999/html"></app-benchmarks>
+
+<fieldset>
+  <legend>Steps</legend>
+  <input type="checkbox" />nvme
+  <input type="checkbox" />nvme
+</fieldset>
+
+<fieldset>
+  <input type="checkbox" />
+</fieldset>
+
+
+<table>
+
+  <tr>
+    <th>nvme + foo + bar</th>
+  </tr>
+
+  <tbody>
+
+    <tr>
+      <td rowspan="4">a + b c</td>
+      <td>SEQ_READ</td>
+      <td>10000</td>
+    </tr>
+
+    <tr>
+      <td>SEQ_WRITE</td>
+      <td>10000</td>
+    </tr>
+
+  </tbody>
+
+  <tr>
+    <th>nvme + foo + bar</th>
+  </tr>
+
+  <tbody>
+
+  <tr>
+    <td rowspan="4">a + b c</td>
+    <td>SEQ_READ</td>
+    <td>10000</td>
+  </tr>
+
+  <tr>
+    <td>SEQ_WRITE</td>
+    <td>10000</td>
+  </tr>
+
+  </tbody>
+
+
+</table>

@@ -1,0 +1,10 @@
+<div class="steps">
+  <app-benchmark-step *ngFor="let step of benchmark.steps" [step]="step"></app-benchmark-step>
+</div>
+
+<dl>
+  <ng-template ngFor let-result [ngForOf]="benchmark.results | keyvalue">
+  <dt>{{result.key}}</dt>
+  <dd>{{result.value.bw}}</dd>
+  </ng-template>
+</dl>

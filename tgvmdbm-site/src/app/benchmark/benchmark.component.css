@@ -1,0 +1,8 @@
+.steps {
+  grid-row: auto / span 4;
+  grid-column: 1;
+}
+
+dl {
+  grid-column: 2;
+}
